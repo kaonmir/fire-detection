@@ -1,4 +1,4 @@
-# Fire Detection System in Python using HSV Color
+# Fire Detection System in Python
 
 
 ## Introduction
@@ -27,7 +27,8 @@ This project provides a computer vision based technique for detecting fire and i
 Color isolation can be achieved by extracting a particular HSV (hue, saturation, value) from an image. The algorithm is simple and the main steps are as follows:
 
 - Step 1 - RGB to HSV Conversion
-- Step 2 - Apply a Threshold Mask
+- Step 2 - Calculate movement of image
+- Step 3 - Apply a Threshold Mask
 
 We want to convert the image to HSV because working with HSV values is much easier to isolate colors. In the HSV representation of color, hue determines the color you want, saturation determines how intense the color is and value determines the lightness of the image. As can be seen in the image below, 0 on the wheel would specify a mild red color and 240 would specify a blue color.
 
@@ -49,14 +50,3 @@ We want to convert the image to HSV because working with HSV values is much easi
 
   ```
     python fire-detector.py
-  ```
-
-## Social Links
-
-* [Linkedin Profile](https://www.linkedin.com/in/gunarakulangunaretnam)
-* [Facebook Profile](https://www.facebook.com/gunarakulangunaratnam)
-* [Instagram Profile](https://www.instagram.com/gunarakulangunaretnam)
-* [Twitter Profile ](https://twitter.com/gunarakulangr)
-* [Kaggle Profile](https://www.kaggle.com/gunarakulangr)
-* [TikTok Profile](https://www.tiktok.com/@gunarakulangunaretnam)
-* [Youtube Profile](https://www.youtube.com/channel/UCMWkED5sabgVZSCKjZuRJXA)
